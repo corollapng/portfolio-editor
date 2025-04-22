@@ -1,27 +1,16 @@
 {
   "name": "port-editor",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "private": true,
-  "engines": {
-    "node": ">=18.x",
-    "npm": ">=9.x"
-  },
   "scripts": {
-    "postinstall": "chmod +x node_modules/.bin/*",  // Linux/macOS
-    "prebuild": "npm install",                     // Garante dependências atualizadas
-    "build": "npx vite build",                     // Evita problemas de permissão
-    "dev": "npx vite dev",
-    "test": "npx vitest"
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    // Dependências de produção (ex: React, Vue)
+    "react": "^18.2.0"
   },
   "devDependencies": {
-    "vite": "^5.0.0",                             // Exemplo com Vite
-    "vitest": "^1.0.0"                             // Exemplo de teste
-  },
-  "browserslist": [                                // Opcional: frontend moderno
-    ">0.2%",
-    "not dead"
-  ]
+    "vite": "^5.0.0"
+  }
 }
