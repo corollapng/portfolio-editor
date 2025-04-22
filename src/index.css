@@ -1,0 +1,7 @@
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: linear-gradient(to bottom, black, #4c1d95);
+  color: white;
+}
