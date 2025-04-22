@@ -1,6 +1,6 @@
 {
-  "name": "portifolio_editor",
-  "version": "1.0.0",
+  "name": "port-editor",
+  "version": "2.0.0",
   "private": true,
   "engines": {
     "node": ">=18.x",
