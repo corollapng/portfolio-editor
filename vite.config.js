@@ -12,3 +12,14 @@ export default defineConfig({
     }
   }
 })
+
+export default defineConfig({
+  plugins: [react()],
+  build: {
+    rollupOptions: {
+      external: [
+        'lucide-react' // Adicione outros pacotes se necessário
+      ]
+    }
+  }
+})
